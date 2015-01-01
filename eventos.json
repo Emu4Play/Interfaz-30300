@@ -1,0 +1,4014 @@
+[
+    {
+        "Event": "ACCOUNT_CHARACTER_LIST_RECIEVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACCOUNT_DATA_INITIALIZED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACCOUNT_DATA_RESTORED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACCOUNT_MESSAGES_AVAILABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACCOUNT_MESSAGES_BODY_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACCOUNT_MESSAGES_HEADERS_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACHIEVEMENT_EARNED",
+        "Description": "Fires when the player earns an achievement"
+    },
+    {
+        "Event": "ACTIONBAR_HIDEGRID",
+        "Description": "Fires when an item, spell or other entity that can be placed into an action bar slot is removed from the cursor"
+    },
+    {
+        "Event": "ACTIONBAR_PAGE_CHANGED",
+        "Description": "Fires when the main action bar changes pages"
+    },
+    {
+        "Event": "ACTIONBAR_SHOWGRID",
+        "Description": "Fires when an item, spell or other entity that can be placed into an action bar slot is picked up onto the cursor"
+    },
+    {
+        "Event": "ACTIONBAR_SHOW_BOTTOMLEFT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ACTIONBAR_SLOT_CHANGED",
+        "Description": "Fires when the contents of an action bar slot change"
+    },
+    {
+        "Event": "ACTIONBAR_UPDATE_COOLDOWN",
+        "Description": "Fires when the cooldown for an action bar item begins or ends"
+    },
+    {
+        "Event": "ACTIONBAR_UPDATE_STATE",
+        "Description": "Fires when the state of an action bar item changes"
+    },
+    {
+        "Event": "ACTIONBAR_UPDATE_USABLE",
+        "Description": "Fires when an action becomes usable or unusable"
+    },
+    {
+        "Event": "ACTIVE_TALENT_GROUP_CHANGED",
+        "Description": "Fires when the player (with Dual Talent Specialization enabled) switches talent builds"
+    },
+    {
+        "Event": "ADDON_ACTION_BLOCKED",
+        "Description": "Fires when a non-Blizzard addon attempts to use a protected API"
+    },
+    {
+        "Event": "ADDON_ACTION_FORBIDDEN",
+        "Description": "Fires when a non-Blizzard addon attempts to use a protected API"
+    },
+    {
+        "Event": "ADDON_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ADDON_LOADED",
+        "Description": "Fires when an addon and its saved variables are loaded"
+    },
+    {
+        "Event": "AMPLIFY_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ARCHAEOLOGY_CLOSED",
+        "Description": "Fires when the archeology panel is closed."
+    },
+    {
+        "Event": "ARCHAEOLOGY_FIND_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ARCHAEOLOGY_SURVEY_CAST",
+        "Description": "Fires when the player finishes casting survey"
+    },
+    {
+        "Event": "ARCHAEOLOGY_TOGGLE",
+        "Description": "Fires when the archeology panel is opened or closed."
+    },
+    {
+        "Event": "AREA_SPIRIT_HEALER_IN_RANGE",
+        "Description": "Fires when the player enters into the area of effect of a spirit healer that periodically resurrects nearby player units"
+    },
+    {
+        "Event": "AREA_SPIRIT_HEALER_OUT_OF_RANGE",
+        "Description": "Fires when the player enters leaves the area of effect of a spirit healer that periodically resurrects nearby player units"
+    },
+    {
+        "Event": "ARENA_OPPONENT_UPDATE",
+        "Description": "Fires when the availability of information about an arena opponent changes"
+    },
+    {
+        "Event": "ARENA_PREP_OPPONENT_SPECIALIZATIONS",
+        "Description": "Fires when the availability of information about an arena opponent specialization change. Used by pre-arena specialization detection UI."
+    },
+    {
+        "Event": "ARENA_SEASON_WORLD_STATE",
+        "Description": "Fires when the arena season changes"
+    },
+    {
+        "Event": "ARTIFACT_COMPLETE",
+        "Description": "Fires when an artifact is completed (solved project)"
+    },
+    {
+        "Event": "ARTIFACT_DIGSITE_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ARTIFACT_DIG_SITE_UPDATED",
+        "Description": "Fires when a new archaeology digsite appears on the map, or an old one disappears"
+    },
+    {
+        "Event": "ARTIFACT_HISTORY_READY",
+        "Description": "Fires when the created artifact listing data of the player becomes available."
+    },
+    {
+        "Event": "ARTIFACT_UPDATE",
+        "Description": "Fires when the artifact display should be updated"
+    },
+    {
+        "Event": "AUCTION_BIDDER_LIST_UPDATE",
+        "Description": "Fires when information becomes available or changes for the list of auctions bid on by the player "
+    },
+    {
+        "Event": "AUCTION_HOUSE_CLOSED",
+        "Description": "Fires when the player ends interaction with an auction house"
+    },
+    {
+        "Event": "AUCTION_HOUSE_DISABLED",
+        "Description": "Fires when the server refuses to give the player access to the auction house because it is disabled"
+    },
+    {
+        "Event": "AUCTION_HOUSE_SHOW",
+        "Description": "Fires when the player begins interaction with an auction house"
+    },
+    {
+        "Event": "AUCTION_ITEM_LIST_UPDATE",
+        "Description": "Fires when the information becomes available for the list of auction browse/search results"
+    },
+    {
+        "Event": "AUCTION_MULTISELL_FAILURE",
+        "Description": "Fires when an auction house multisell could not complete for any reason "
+    },
+    {
+        "Event": "AUCTION_MULTISELL_START",
+        "Description": "Fires when the player starts a multisell in the auction house"
+    },
+    {
+        "Event": "AUCTION_MULTISELL_UPDATE",
+        "Description": "Fires when one of the auctions in an auction house multisell has successfully been created"
+    },
+    {
+        "Event": "AUCTION_OWNED_LIST_UPDATE",
+        "Description": "Fires when information becomes available or changes for the list of auctions placed by the player"
+    },
+    {
+        "Event": "AUTH_CHALLENGE_FINISHED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "AUTH_CHALLENGE_UI_INVALID",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "AUTOEQUIP_BIND_CONFIRM",
+        "Description": "Fires when the player attempts to equip an item which will become soulbound in the process"
+    },
+    {
+        "Event": "AUTOFOLLOW_BEGIN",
+        "Description": "Fires when the player starts following another character"
+    },
+    {
+        "Event": "AUTOFOLLOW_END",
+        "Description": "Fires when the player stops following another character"
+    },
+    {
+        "Event": "AVOIDANCE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BAG_CLOSED",
+        "Description": "Fires when one of the player's containers is closed"
+    },
+    {
+        "Event": "BAG_NEW_ITEMS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BAG_OPEN",
+        "Description": "Fires when one of the player's containers is opened"
+    },
+    {
+        "Event": "BAG_SLOT_FLAGS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BAG_UPDATE",
+        "Description": "Fires when the contents of one of the player's containers change"
+    },
+    {
+        "Event": "BAG_UPDATE_COOLDOWN",
+        "Description": "Fires when the cooldown begins or ends for an item in one of the player's containers"
+    },
+    {
+        "Event": "BAG_UPDATE_DELAYED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BANKFRAME_CLOSED",
+        "Description": "Fires when the player ends interaction with a bank"
+    },
+    {
+        "Event": "BANKFRAME_OPENED",
+        "Description": "Fires when the player begins interaction with a bank"
+    },
+    {
+        "Event": "BANK_BAG_SLOT_FLAGS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BARBER_SHOP_APPEARANCE_APPLIED",
+        "Description": "Fires after changes to the player's appearance have been purchased at a barber shop"
+    },
+    {
+        "Event": "BARBER_SHOP_CLOSE",
+        "Description": "Fires when the player ends interaction with a barber shop"
+    },
+    {
+        "Event": "BARBER_SHOP_OPEN",
+        "Description": "Fires when the player begins interaction with a barber shop"
+    },
+    {
+        "Event": "BARBER_SHOP_SUCCESS",
+        "Description": "Fires immediately when changes to the player's appearance have been purchased at a barber shop"
+    },
+    {
+        "Event": "BATTLEFIELDS_CLOSED",
+        "Description": "Fires when the UI is no longer available for queueing for an arena or specific battleground instance"
+    },
+    {
+        "Event": "BATTLEFIELDS_SHOW",
+        "Description": "Fires when the UI becomes available for queueing for an arena or specific battleground instance"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_DROP_TIMER_CANCELED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_DROP_TIMER_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_EJECTED",
+        "Description": "Fires when the player has been removed from a queued world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_EJECT_PENDING",
+        "Description": "Fires when the player will be removed from or cannot yet enter a queued world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_ENTERED",
+        "Description": "Fires when the player has been accepted into a queued world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_ENTRY_INVITE",
+        "Description": "Fires when the player is invited to enter a queued world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_QUEUE_INVITE",
+        "Description": "Fires when the player is invited to queue for a world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_QUEUE_REQUEST_RESPONSE",
+        "Description": "Fires in response to the player's attempt to enter or queue for a world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_MGR_STATE_CHANGE",
+        "Description": "Fires when the player's state changes in the queue for a world PvP zone (e.g. Wintergrasp)"
+    },
+    {
+        "Event": "BATTLEFIELD_QUEUE_TIMEOUT",
+        "Description": "Fires when a battleground queue expires"
+    },
+    {
+        "Event": "BATTLEGROUND_OBJECTIVES_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLEGROUND_POINTS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLEPET_FORCE_NAME_DECLENSION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLETAG_INVITE_SHOW",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BATTLE_PET_CURSOR_CLEAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BILLING_NAG_DIALOG",
+        "Description": "Fires when a message should be shown about the player's paid game time expiring soon"
+    },
+    {
+        "Event": "BIND_ENCHANT",
+        "Description": "Fires when the player attempts to an enchant an item which will become soulbound in the process"
+    },
+    {
+        "Event": "BLACK_MARKET_BID_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_CLOSE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_ITEM_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_OPEN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_OUTBID",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_UNAVAILABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BLACK_MARKET_WON",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_BLOCK_FAILED_TOO_MANY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_BLOCK_LIST_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_CREATE_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_CREATE_SUCCEEDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_INVITE_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_INVITE_SUCCEEDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_JOINED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_LEFT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_MEMBER_JOINED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_MEMBER_LEFT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_MEMBER_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_MESSAGE_BLOCKED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_CHANNEL_MESSAGE_UNDELIVERABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_MSG_ADDON",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CHAT_WHISPER_UNDELIVERABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_CONNECTED",
+        "Description": "Fires when the player connects to Battle.net"
+    },
+    {
+        "Event": "BN_CUSTOM_MESSAGE_CHANGED",
+        "Description": "Fires when the player's Battle.net custom message (broadcast) is changed"
+    },
+    {
+        "Event": "BN_CUSTOM_MESSAGE_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_DISCONNECTED",
+        "Description": "Fires when the player disconnects from Battle.net"
+    },
+    {
+        "Event": "BN_FRIEND_ACCOUNT_OFFLINE",
+        "Description": "Fires when one of your RealID friends logs off"
+    },
+    {
+        "Event": "BN_FRIEND_ACCOUNT_ONLINE",
+        "Description": "Fires when one of your RealID friends log on"
+    },
+    {
+        "Event": "BN_FRIEND_INFO_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_INVITE_ADDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_INVITE_LIST_INITIALIZED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_INVITE_REMOVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_INVITE_SEND_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_LIST_SIZE_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_TOON_OFFLINE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_FRIEND_TOON_ONLINE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_INFO_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_MATURE_LANGUAGE_FILTER",
+        "Description": "Fires whenever the battle.net mature language filter setting is changed."
+    },
+    {
+        "Event": "BN_NEW_PRESENCE",
+        "Description": "Fires when information about a new Battle.net presence is available"
+    },
+    {
+        "Event": "BN_REQUEST_FOF_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_REQUEST_FOF_SUCCEEDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_SELF_OFFLINE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_SELF_ONLINE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_SYSTEM_MESSAGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BN_TOON_NAME_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BONUS_ROLL_ACTIVATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BONUS_ROLL_DEACTIVATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BONUS_ROLL_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BONUS_ROLL_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "BONUS_ROLL_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CALENDAR_ACTION_PENDING",
+        "Description": "Fires when a change to the calendar is in progress"
+    },
+    {
+        "Event": "CALENDAR_CLOSE_EVENT",
+        "Description": "Fires when the player ends viewing or editing details of a calendar event"
+    },
+    {
+        "Event": "CALENDAR_EVENT_ALARM",
+        "Description": "Fires when a calendar event is soon to begin"
+    },
+    {
+        "Event": "CALENDAR_NEW_EVENT",
+        "Description": "Fires when an event created by the player is added to the calendar"
+    },
+    {
+        "Event": "CALENDAR_OPEN_EVENT",
+        "Description": "Fires when the player begins viewing or editing details of a calendar event"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_ERROR",
+        "Description": "Fires when a calendar-related error message should be displayed"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_EVENT",
+        "Description": "Fires when details become available for the event being viewed or edited"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_EVENT_LIST",
+        "Description": "Fires when the list of events visible on the calendar changes"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_GUILD_EVENTS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_INVITE_LIST",
+        "Description": "Fires when the invite/signup list is updated for the event being viewed or edited"
+    },
+    {
+        "Event": "CALENDAR_UPDATE_PENDING_INVITES",
+        "Description": "Fires when the player receives new calendar event invitations"
+    },
+    {
+        "Event": "CANCEL_LOOT_ROLL",
+        "Description": "Fires when the player cancels a loot roll"
+    },
+    {
+        "Event": "CANCEL_SUMMON",
+        "Description": "Fires when a summons offered to the player is canceled"
+    },
+    {
+        "Event": "CHALLENGE_MODE_COMPLETED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHALLENGE_MODE_LEADERS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHALLENGE_MODE_MAPS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHALLENGE_MODE_NEW_RECORD",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHALLENGE_MODE_RESET",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHALLENGE_MODE_START",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHANNEL_COUNT_UPDATE",
+        "Description": "Fires when the number of members in a world or custom chat channel changes"
+    },
+    {
+        "Event": "CHANNEL_FLAGS_UPDATED",
+        "Description": "Fires when information about a channel for the channel list display changes"
+    },
+    {
+        "Event": "CHANNEL_INVITE_REQUEST",
+        "Description": "Fires when a player is invited into a chat channel"
+    },
+    {
+        "Event": "CHANNEL_PASSWORD_REQUEST",
+        "Description": "Fires when the player attempts to join a password protected channel"
+    },
+    {
+        "Event": "CHANNEL_ROSTER_UPDATE",
+        "Description": "Fires when the list of members in a channel changes"
+    },
+    {
+        "Event": "CHANNEL_UI_UPDATE",
+        "Description": "Fires when information for the channel list display changes"
+    },
+    {
+        "Event": "CHANNEL_VOICE_UPDATE",
+        "Description": "Fires when a member in a voice chat channel starts or stops speaking"
+    },
+    {
+        "Event": "CHARACTER_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHARACTER_POINTS_CHANGED",
+        "Description": "Fires when the player's amount of available talent points changes"
+    },
+    {
+        "Event": "CHARACTER_UNDELETE_FINISHED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHARACTER_UNDELETE_STATUS_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHARACTER_UPGRADE_ABORTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHARACTER_UPGRADE_SPELL_TIER_SET",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHARACTER_UPGRADE_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAR_RESTORE_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_COMBAT_MSG_ARENA_POINTS_GAIN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_ACHIEVEMENT",
+        "Description": "Fires when a nearby character earns an achievement"
+    },
+    {
+        "Event": "CHAT_MSG_ADDON",
+        "Description": "Fires when an addon communication message is received (see [[docs/api/SendAddonMessage|`SendAddonMessage()`]])"
+    },
+    {
+        "Event": "CHAT_MSG_AFK",
+        "Description": "Fires when an automatic AFK response is received"
+    },
+    {
+        "Event": "CHAT_MSG_BG_SYSTEM_ALLIANCE",
+        "Description": "Fires when an Alliance-related battleground system message is received"
+    },
+    {
+        "Event": "CHAT_MSG_BG_SYSTEM_HORDE",
+        "Description": "Fires when a Horde-related battleground system message is received"
+    },
+    {
+        "Event": "CHAT_MSG_BG_SYSTEM_NEUTRAL",
+        "Description": "Fires when a general battleground, zone or world message is received"
+    },
+    {
+        "Event": "CHAT_MSG_BN_CONVERSATION",
+        "Description": "Fires when you type a message in chat or when you recive a message from another player using Battle.Net"
+    },
+    {
+        "Event": "CHAT_MSG_BN_CONVERSATION_LIST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_BN_CONVERSATION_NOTICE",
+        "Description": "Fires when you join a conversation channel (private channel for you and your friends) on Battle.Net"
+    },
+    {
+        "Event": "CHAT_MSG_BN_INLINE_TOAST_ALERT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_BN_INLINE_TOAST_BROADCAST",
+        "Description": "Fires whenever a user changes their broadcast message on Battle.Net"
+    },
+    {
+        "Event": "CHAT_MSG_BN_INLINE_TOAST_BROADCAST_INFORM",
+        "Description": "Fires when the player sends a new broadcast (online message)"
+    },
+    {
+        "Event": "CHAT_MSG_BN_INLINE_TOAST_CONVERSATION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_BN_WHISPER",
+        "Description": "Fires when you receive a whisper though Battle.net"
+    },
+    {
+        "Event": "CHAT_MSG_BN_WHISPER_INFORM",
+        "Description": "Fires when you send a whisper though Battle.net (arguments are similar to `CHAT_MSG_BN_WHISPER`)"
+    },
+    {
+        "Event": "CHAT_MSG_BN_WHISPER_PLAYER_OFFLINE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL",
+        "Description": "Fires when a message is received in a world or custom chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL_JOIN",
+        "Description": "Fires when another character joins a world or custom chat channel monitored by the player"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL_LEAVE",
+        "Description": "Fires when another character leaves a world or custom chat channel monitored by the player"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL_LIST",
+        "Description": "Fires in response to a channel list query (e.g. `/chatlist`)"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL_NOTICE",
+        "Description": "Fires when certain actions happen on a world or custom chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_CHANNEL_NOTICE_USER",
+        "Description": "Fires when certain actions pertaining to specific members happen on a world or custom chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_COMBAT_FACTION_CHANGE",
+        "Description": "Fires when the player gains or loses reputation with a faction"
+    },
+    {
+        "Event": "CHAT_MSG_COMBAT_GUILD_XP_GAIN",
+        "Description": "Fires when a guild experience gain message appears in chat"
+    },
+    {
+        "Event": "CHAT_MSG_COMBAT_HONOR_GAIN",
+        "Description": "Fires when the player gains honor points"
+    },
+    {
+        "Event": "CHAT_MSG_COMBAT_MISC_INFO",
+        "Description": "Fires for miscellaneous messages to be displayed in the combat log, such as loss of equipment durability upon death"
+    },
+    {
+        "Event": "CHAT_MSG_COMBAT_XP_GAIN",
+        "Description": "Fires when the player gains experience points"
+    },
+    {
+        "Event": "CHAT_MSG_CURRENCY",
+        "Description": "Fires when the player receives a currency"
+    },
+    {
+        "Event": "CHAT_MSG_DND",
+        "Description": "Fires when an automatic DND response is received"
+    },
+    {
+        "Event": "CHAT_MSG_EMOTE",
+        "Description": "Fires when a custom emote message is received."
+    },
+    {
+        "Event": "CHAT_MSG_FILTERED",
+        "Description": "Fires when the player attempts to send a chat message which is blocked by the spam filter"
+    },
+    {
+        "Event": "CHAT_MSG_GUILD",
+        "Description": "Fires when a message is received in the guild chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_GUILD_ACHIEVEMENT",
+        "Description": "Fires when a member of the player's guild earns an achievement"
+    },
+    {
+        "Event": "CHAT_MSG_IGNORED",
+        "Description": "Fires when an automatic response is received after whispering or inviting a character who is ignoring the player"
+    },
+    {
+        "Event": "CHAT_MSG_INSTANCE_CHAT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_INSTANCE_CHAT_LEADER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_LOOT",
+        "Description": "Fires when receiving notice that the player or a member of the player's group has looted an item"
+    },
+    {
+        "Event": "CHAT_MSG_MONEY",
+        "Description": "Fires when the player receives money as loot"
+    },
+    {
+        "Event": "CHAT_MSG_MONSTER_EMOTE",
+        "Description": "Fires when a nearby NPC performs emote text"
+    },
+    {
+        "Event": "CHAT_MSG_MONSTER_PARTY",
+        "Description": "Fires when an NPC speaks to the player's party chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_MONSTER_SAY",
+        "Description": "Fires when a nearby NPC speaks (visible only to players in the immediate area)"
+    },
+    {
+        "Event": "CHAT_MSG_MONSTER_WHISPER",
+        "Description": "Fires when an NPC whispers to the player"
+    },
+    {
+        "Event": "CHAT_MSG_MONSTER_YELL",
+        "Description": "Fires when an NPC yells (visible to players in a wide area or the entire zone)"
+    },
+    {
+        "Event": "CHAT_MSG_OFFICER",
+        "Description": "Fires when a message is received in officer chat."
+    },
+    {
+        "Event": "CHAT_MSG_OPENING",
+        "Description": "Fires for messages about the player \"opening\" a world object"
+    },
+    {
+        "Event": "CHAT_MSG_PARTY",
+        "Description": "Fires when a message is received in the party chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_PARTY_LEADER",
+        "Description": "Fires when a Party Leader types in chat"
+    },
+    {
+        "Event": "CHAT_MSG_PET_BATTLE_COMBAT_LOG",
+        "Description": "Fires during combat in pet battles."
+    },
+    {
+        "Event": "CHAT_MSG_PET_BATTLE_INFO",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_MSG_PET_INFO",
+        "Description": "Fires for pet-related messages normally displayed in the combat log (e.g. summoning or dismissing a pet)"
+    },
+    {
+        "Event": "CHAT_MSG_RAID",
+        "Description": "Fires when a message is received in the raid chat channel"
+    },
+    {
+        "Event": "CHAT_MSG_RAID_BOSS_EMOTE",
+        "Description": "Fires when a raid boss performs emote text"
+    },
+    {
+        "Event": "CHAT_MSG_RAID_BOSS_WHISPER",
+        "Description": "Fires when a raid boss whispers to the player"
+    },
+    {
+        "Event": "CHAT_MSG_RAID_LEADER",
+        "Description": "Fires when a message is received in the raid chat channel from the raid leader"
+    },
+    {
+        "Event": "CHAT_MSG_RAID_WARNING",
+        "Description": "Fires when a raid warning message is received"
+    },
+    {
+        "Event": "CHAT_MSG_RESTRICTED",
+        "Description": "Fires when the player attempts to send a chat message which is disallowed because the player is on a trial account"
+    },
+    {
+        "Event": "CHAT_MSG_SAY",
+        "Description": "Fires when the player or a nearby character speaks (visible to other nearby characters)"
+    },
+    {
+        "Event": "CHAT_MSG_SKILL",
+        "Description": "Fires when skill related messages are received."
+    },
+    {
+        "Event": "CHAT_MSG_SYSTEM",
+        "Description": "Fires when a system message is received"
+    },
+    {
+        "Event": "CHAT_MSG_TARGETICONS",
+        "Description": "Fires when a target icon message is sent in chat."
+    },
+    {
+        "Event": "CHAT_MSG_TEXT_EMOTE",
+        "Description": "Fires when the player receives a standard emote (e.g. `/dance`, `/flirt`) message"
+    },
+    {
+        "Event": "CHAT_MSG_TRADESKILLS",
+        "Description": "Fires when the player or a nearby character performs a trade skill recipe"
+    },
+    {
+        "Event": "CHAT_MSG_WHISPER",
+        "Description": "Fires when the player receives a whisper from a player character"
+    },
+    {
+        "Event": "CHAT_MSG_WHISPER_INFORM",
+        "Description": "Fires when the player sends a whisper to a player character"
+    },
+    {
+        "Event": "CHAT_MSG_YELL",
+        "Description": "Fires when the player or another player character yells (visible to other characters in a wide area) "
+    },
+    {
+        "Event": "CHAT_SERVER_DISCONNECTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CHAT_SERVER_RECONNECTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CINEMATIC_START",
+        "Description": "Fires when an in-game-engine cinematic begins to play"
+    },
+    {
+        "Event": "CINEMATIC_STOP",
+        "Description": "Fires when an in-game-engine cinematic stops playing"
+    },
+    {
+        "Event": "CLEAR_BOSS_EMOTES",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLEAVE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLIENT_ACCOUNT_MISMATCH",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLIENT_CONVERTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLIENT_TRIAL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLOSE_INBOX_ITEM",
+        "Description": "Fires when the mail message being viewed is no longer available"
+    },
+    {
+        "Event": "CLOSE_STATUS_DIALOG",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CLOSE_TABARD_FRAME",
+        "Description": "Fires when the player ends interaction with a tabard designer"
+    },
+    {
+        "Event": "CLOSE_WORLD_MAP",
+        "Description": "Fires when the world map should be hidden in response to external conditions"
+    },
+    {
+        "Event": "COMBAT_LOG_EVENT",
+        "Description": "Fires when an event to be displayed in the combat log is received"
+    },
+    {
+        "Event": "COMBAT_LOG_EVENT_UNFILTERED",
+        "Description": "Fires when a combat log event is received"
+    },
+    {
+        "Event": "COMBAT_RATING_UPDATE",
+        "Description": "Fires when the player's combat rating statistics change"
+    },
+    {
+        "Event": "COMBAT_TEXT_UPDATE",
+        "Description": "Fires when a message is received which can be displayed by the default UI's floating combat text feature"
+    },
+    {
+        "Event": "COMMENTATOR_ENTER_WORLD",
+        "Description": "This is a Blizzard internal function"
+    },
+    {
+        "Event": "COMMENTATOR_MAP_UPDATE",
+        "Description": "This is a Blizzard internal function"
+    },
+    {
+        "Event": "COMMENTATOR_PARTY_INFO_REQUEST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "COMMENTATOR_PLAYER_UPDATE",
+        "Description": "This is a Blizzard internal function"
+    },
+    {
+        "Event": "COMPACT_UNIT_FRAME_PROFILES_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "COMPANION_LEARNED",
+        "Description": "Fires when the player learns to summon a new mount or non-combat pet"
+    },
+    {
+        "Event": "COMPANION_UNLEARNED",
+        "Description": "Fires when the player unlearns a mount or a companion"
+    },
+    {
+        "Event": "COMPANION_UPDATE",
+        "Description": "Fires when new information about the player's mounts and non-combat pets is available"
+    },
+    {
+        "Event": "CONFIRM_BEFORE_USE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CONFIRM_BINDER",
+        "Description": "Fires when the player attempts to set a new Hearthstone location"
+    },
+    {
+        "Event": "CONFIRM_DISENCHANT_ROLL",
+        "Description": "Fires when the player attempts to roll disenchant for an item which Binds on Pickup"
+    },
+    {
+        "Event": "CONFIRM_LOOT_ROLL",
+        "Description": "Fires when the player attempts to roll for a loot item which Binds on Pickup"
+    },
+    {
+        "Event": "CONFIRM_SUMMON",
+        "Description": "Fires when a summons is offered to the player"
+    },
+    {
+        "Event": "CONFIRM_TALENT_WIPE",
+        "Description": "Fires when the player attempts to unlearn talents"
+    },
+    {
+        "Event": "CONFIRM_XP_LOSS",
+        "Description": "Fires when the player attempts to resurrect at a graveyard spirit healer"
+    },
+    {
+        "Event": "CORPSE_IN_INSTANCE",
+        "Description": "Fires when the player (dead, in spirit form) approaches the entrance to the instance in which his corpse is located"
+    },
+    {
+        "Event": "CORPSE_IN_RANGE",
+        "Description": "Fires when the player (dead, in spirit form) approaches near enough to his corpse to return to life"
+    },
+    {
+        "Event": "CORPSE_OUT_OF_RANGE",
+        "Description": "Fires when the player (dead, in spirit form) moves too far away from his corpse to resurrect"
+    },
+    {
+        "Event": "CRITERIA_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CRITERIA_EARNED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "CRITERIA_UPDATE",
+        "Description": "Fires when information about achievement criteria or player statistics becomes available"
+    },
+    {
+        "Event": "CURRENCY_DISPLAY_UPDATE",
+        "Description": "Fires when new information for the currency list is available"
+    },
+    {
+        "Event": "CURRENT_SPELL_CAST_CHANGED",
+        "Description": "Fires when the player starts or stops (cancels or finishes) casting a spell"
+    },
+    {
+        "Event": "CURSOR_UPDATE",
+        "Description": "Fires when the mouse cursor image or contents is changed"
+    },
+    {
+        "Event": "CVAR_UPDATE",
+        "Description": "Fires when the value of a configuration variable is updated"
+    },
+    {
+        "Event": "DELETE_ITEM_CONFIRM",
+        "Description": "Fires when the player attempts to delete an item"
+    },
+    {
+        "Event": "DISABLE_DECLINE_GUILD_INVITE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "DISABLE_LOW_LEVEL_RAID",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "DISABLE_TAXI_BENCHMARK",
+        "Description": "Fires when a flight path benchmarking session ends or is canceled"
+    },
+    {
+        "Event": "DISABLE_XP_GAIN",
+        "Description": "Fires when the player disables experience point gains"
+    },
+    {
+        "Event": "DISCONNECTED_FROM_SERVER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "DISPLAY_PROMOTION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "DISPLAY_SIZE_CHANGED",
+        "Description": "Fires when the screen resolution changes"
+    },
+    {
+        "Event": "DUEL_FINISHED",
+        "Description": "Fires when a duel in which the player is participating ends"
+    },
+    {
+        "Event": "DUEL_INBOUNDS",
+        "Description": "Fires when the player reenters the duel area after leaving its boundaries"
+    },
+    {
+        "Event": "DUEL_OUTOFBOUNDS",
+        "Description": "Fires when the player begins to move outside the boundaries of a duel area"
+    },
+    {
+        "Event": "DUEL_REQUESTED",
+        "Description": "Fires when the player is challenged to a duel"
+    },
+    {
+        "Event": "ECLIPSE_DIRECTION_CHANGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "EJ_DIFFICULTY_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "EJ_LOOT_DATA_RECIEVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ENABLE_DECLINE_GUILD_INVITE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ENABLE_LOW_LEVEL_RAID",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ENABLE_TAXI_BENCHMARK",
+        "Description": "Fires when taxi benchmarking mode is enabled"
+    },
+    {
+        "Event": "ENABLE_XP_GAIN",
+        "Description": "Fires when the player re-enabled experience point gain after disabling it"
+    },
+    {
+        "Event": "ENCOUNTER_END",
+        "Description": "Fires after a raid encounter ended."
+    },
+    {
+        "Event": "ENCOUNTER_START",
+        "Description": "Fires when a raid encounter starts."
+    },
+    {
+        "Event": "END_BOUND_TRADEABLE",
+        "Description": "Fires when the player attempts an action which will make a looted Bind on Pickup item no longer tradeable"
+    },
+    {
+        "Event": "ENTERED_DIFFERENT_INSTANCE_FROM_PARTY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "EQUIPMENT_SETS_CHANGED",
+        "Description": "Fires when the player's list of equipment sets changes"
+    },
+    {
+        "Event": "EQUIPMENT_SWAP_FINISHED",
+        "Description": "Fires when the process of switching equipment sets is complete"
+    },
+    {
+        "Event": "EQUIPMENT_SWAP_PENDING",
+        "Description": "Fires when the player begins to switch equipment sets"
+    },
+    {
+        "Event": "EQUIP_BIND_CONFIRM",
+        "Description": "Fires when the player attempts to equip an item which will become soulbound in the process"
+    },
+    {
+        "Event": "EXECUTE_CHAT_LINE",
+        "Description": "Fires when a chat message is encountered in a running macro"
+    },
+    {
+        "Event": "FORCE_DECLINE_CHARACTER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "FORCE_RENAME_CHARACTER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "FRAMES_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "FRIENDLIST_UPDATE",
+        "Description": "Fires when the content of the player's friends list becomes available or changes"
+    },
+    {
+        "Event": "GAME_ACCOUNTS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_ARCHITECT_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_ARCHITECT_OPENED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDINGS_SWAPPED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_ACTIVATABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_ACTIVATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_ERROR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_PLACED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_REMOVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_BUILDING_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_FOLLOWER_ADDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_FOLLOWER_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_FOLLOWER_REMOVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_FOLLOWER_XP_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_HIDE_LANDING_PAGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_INVASION_AVAILABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_INVASION_UNAVAILABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_LANDINGPAGE_SHIPMENTS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_BONUS_ROLL_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_BONUS_ROLL_LOOT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_COMPLETE_RESPONSE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_FINISHED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_NPC_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_NPC_OPENED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MISSION_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MONUMENT_CLOSE_UI",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MONUMENT_LIST_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MONUMENT_REPLACED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MONUMENT_SELECTED_TROPHY_ID_LOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_MONUMENT_SHOW_UI",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECALL_PORTAL_LAST_USED_TIME",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECALL_PORTAL_USED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECRUITMENT_FOLLOWERS_GENERATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECRUITMENT_NPC_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECRUITMENT_NPC_OPENED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECRUITMENT_READY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_RECRUIT_FOLLOWER_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_SHOW_LANDING_PAGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_TRADESKILL_NPC_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_UPGRADEABLE_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GARRISON_USE_PARTY_GARRISON_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GET_ITEM_INFO_RECEIVED",
+        "Description": "Fires when item info requested by GetItemInfo() becomes available, if it wasn't already, through a disk seek or a net request"
+    },
+    {
+        "Event": "GET_PREFERRED_REALM_INFO",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GLUE_SCREENSHOT_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GLUE_SCREENSHOT_SUCCEEDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GLUE_UPDATE_EXPANSION_LEVEL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GLYPH_ADDED",
+        "Description": "Fires when a glyph is inscribed into the player's spellbook"
+    },
+    {
+        "Event": "GLYPH_DISABLED",
+        "Description": "Fires when a glyph slot is no longer available"
+    },
+    {
+        "Event": "GLYPH_ENABLED",
+        "Description": "Fires when a glyph slot becomes available"
+    },
+    {
+        "Event": "GLYPH_REMOVED",
+        "Description": "Fires when the player removes an inscribed glyph"
+    },
+    {
+        "Event": "GLYPH_UPDATED",
+        "Description": "Fires when information about the player's inscribed glyphs becomes available"
+    },
+    {
+        "Event": "GMRESPONSE_RECEIVED",
+        "Description": "Fires when the player receives a response to a GM ticket"
+    },
+    {
+        "Event": "GMSURVEY_DISPLAY",
+        "Description": "Fires when the player is invited to participate in a GM feedback survey"
+    },
+    {
+        "Event": "GM_PLAYER_INFO",
+        "Description": "This is a Blizzard internal function"
+    },
+    {
+        "Event": "GOSSIP_CLOSED",
+        "Description": "Fires when an NPC gossip interaction ends"
+    },
+    {
+        "Event": "GOSSIP_CONFIRM",
+        "Description": "Fires when the player is requested to confirm a gossip choice"
+    },
+    {
+        "Event": "GOSSIP_CONFIRM_CANCEL",
+        "Description": "Fires when an attempt to confirm a gossip choice is canceled"
+    },
+    {
+        "Event": "GOSSIP_ENTER_CODE",
+        "Description": "Fires when the player attempts a gossip choice which requires entering a code"
+    },
+    {
+        "Event": "GOSSIP_SHOW",
+        "Description": "Fires when an NPC gossip interaction begins"
+    },
+    {
+        "Event": "GROUP_JOINED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GROUP_ROSTER_UPDATE",
+        "Description": "Fires when composition of party change."
+    },
+    {
+        "Event": "GUILDBANKBAGSLOTS_CHANGED",
+        "Description": "Fires when information about the contents of guild bank item slots changes or becomes available"
+    },
+    {
+        "Event": "GUILDBANKFRAME_CLOSED",
+        "Description": "Fires when the player ends interaction with the guild bank"
+    },
+    {
+        "Event": "GUILDBANKFRAME_OPENED",
+        "Description": "Fires when the player begins interaction with the guild bank"
+    },
+    {
+        "Event": "GUILDBANKLOG_UPDATE",
+        "Description": "Fires when information for the guild bank transaction or money log becomes available"
+    },
+    {
+        "Event": "GUILDBANK_ITEM_LOCK_CHANGED",
+        "Description": "Fires when an item in the guild bank is locked for moving or unlocked afterward"
+    },
+    {
+        "Event": "GUILDBANK_TEXT_CHANGED",
+        "Description": "Fires when the text associated with a guild bank tab is changed"
+    },
+    {
+        "Event": "GUILDBANK_UPDATE_MONEY",
+        "Description": "Fires when the amount of money in the guild bank changes"
+    },
+    {
+        "Event": "GUILDBANK_UPDATE_TABS",
+        "Description": "Fires when information about guild bank tabs becomes available"
+    },
+    {
+        "Event": "GUILDBANK_UPDATE_TEXT",
+        "Description": "Fires when text associated with a guild bank tab becomes available"
+    },
+    {
+        "Event": "GUILDBANK_UPDATE_WITHDRAWMONEY",
+        "Description": "Fires when the amount of money the player can withdraw from the guild bank changes"
+    },
+    {
+        "Event": "GUILDTABARD_UPDATE",
+        "Description": "Fires when the player's guild tabard design changes."
+    },
+    {
+        "Event": "GUILD_CHALLENGE_COMPLETED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_CHALLENGE_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_EVENT_LOG_UPDATE",
+        "Description": "Fires when information for the guild event log becomes available"
+    },
+    {
+        "Event": "GUILD_INVITE_CANCEL",
+        "Description": "Fires when an invitation to join a guild is no longer available"
+    },
+    {
+        "Event": "GUILD_INVITE_REQUEST",
+        "Description": "Fires when the player is invited to join a guild"
+    },
+    {
+        "Event": "GUILD_MOTD",
+        "Description": "Fires when the guild message of the day is updated"
+    },
+    {
+        "Event": "GUILD_NEWS_UPDATE",
+        "Description": "Fires when the Guild News are updated"
+    },
+    {
+        "Event": "GUILD_PARTY_STATE_UPDATED",
+        "Description": "Fires when the guild state of the current dungeon changes"
+    },
+    {
+        "Event": "GUILD_PERK_UPDATE",
+        "Description": "Fires when the guild gains or loses a perk"
+    },
+    {
+        "Event": "GUILD_RANKS_UPDATE",
+        "Description": "Fires when unit is promoted or demoted within the guild"
+    },
+    {
+        "Event": "GUILD_RECIPE_KNOWN_BY_MEMBERS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_REGISTRAR_CLOSED",
+        "Description": "Fires when the player ends interaction with a guild registrar"
+    },
+    {
+        "Event": "GUILD_REGISTRAR_SHOW",
+        "Description": "Fires when the player begins interaction with a guild registrar"
+    },
+    {
+        "Event": "GUILD_RENAME_REQUIRED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_REP_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_REWARDS_LIST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_ROSTER_UPDATE",
+        "Description": "Fires when new information about the contents of the guild roster is available"
+    },
+    {
+        "Event": "GUILD_TRADESKILL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "GUILD_XP_UPDATE",
+        "Description": "Fires when the Guild XP is updated"
+    },
+    {
+        "Event": "HEARTHSTONE_BOUND",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "HEIRLOOMS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "IGNORELIST_UPDATE",
+        "Description": "Fires when the content of the player's ignore list becomes available or changes "
+    },
+    {
+        "Event": "IGR_BILLING_NAG_DIALOG",
+        "Description": "Fires when a message should be shown about the player's paid-per-hour game time expiring soon"
+    },
+    {
+        "Event": "INCOMING_RESURRECT_CHANGED",
+        "Description": "Fires when a resurrection spell is cast"
+    },
+    {
+        "Event": "INELIGIBLE_FOR_LOOT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "INSPECT_ACHIEVEMENT_READY",
+        "Description": "Fires after the player attempts to compare achievements with another character, indicating that achievement information for the other unit has become available"
+    },
+    {
+        "Event": "INSPECT_HONOR_UPDATE",
+        "Description": "Fires when information about the inspected unit's PvP activities becomes available"
+    },
+    {
+        "Event": "INSPECT_READY",
+        "Description": "Fires when inspect information not readily available is now ready"
+    },
+    {
+        "Event": "INSTANCE_BOOT_START",
+        "Description": "Fires when the player will soon be ejected from an instance"
+    },
+    {
+        "Event": "INSTANCE_BOOT_STOP",
+        "Description": "Fires when the warning countdown for ejecting the player from an instance is canceled"
+    },
+    {
+        "Event": "INSTANCE_ENCOUNTER_ENGAGE_UNIT",
+        "Description": "Fires when a boss has been engaged in an instance"
+    },
+    {
+        "Event": "INSTANCE_GROUP_SIZE_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "INSTANCE_LOCK_START",
+        "Description": "Fires when the player will soon be saved to an instance"
+    },
+    {
+        "Event": "INSTANCE_LOCK_STOP",
+        "Description": "Fires when the warning countdown for saving the player to an instance is canceled"
+    },
+    {
+        "Event": "INSTANCE_LOCK_WARNING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "INVENTORY_SEARCH_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ITEM_LOCKED",
+        "Description": "Fires when an item in the player's bags or equipped inventory is locked for moving"
+    },
+    {
+        "Event": "ITEM_LOCK_CHANGED",
+        "Description": "Fires when an item in the player's bags or equipped inventory is locked for moving or unlocked afterward"
+    },
+    {
+        "Event": "ITEM_PUSH",
+        "Description": "Fires when the player receives an item"
+    },
+    {
+        "Event": "ITEM_RESTORATION_BUTTON_STATUS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "ITEM_TEXT_BEGIN",
+        "Description": "Fires when the player begins interaction with a readable item or world object"
+    },
+    {
+        "Event": "ITEM_TEXT_CLOSED",
+        "Description": "Fires when the player ends interaction with a readable item or world object"
+    },
+    {
+        "Event": "ITEM_TEXT_READY",
+        "Description": "Fires when text changes or becomes available for the readable item or world object with which the player is interacting"
+    },
+    {
+        "Event": "ITEM_TEXT_TRANSLATION",
+        "Description": "Fires when a \"translation\" progress bar should be displayed while the player interacts with a readable item or world object"
+    },
+    {
+        "Event": "ITEM_UNLOCKED",
+        "Description": "Fires when an item in the player's bags or equipped inventory is unlocked after moving"
+    },
+    {
+        "Event": "ITEM_UPGRADE_MASTER_CLOSED",
+        "Description": "Fires when Item Upgrade Window closes."
+    },
+    {
+        "Event": "ITEM_UPGRADE_MASTER_OPENED",
+        "Description": "Fires when the Item Upgrade Window is shown."
+    },
+    {
+        "Event": "ITEM_UPGRADE_MASTER_SET_ITEM",
+        "Description": "Fires when an Item is placed into the window for Upgrade."
+    },
+    {
+        "Event": "ITEM_UPGRADE_MASTER_UPDATE",
+        "Description": "Fired when an item has successfully been upgraded."
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_ARTICLE_LOAD_FAILURE",
+        "Description": "Fires when a knowledge base article fails to load"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_ARTICLE_LOAD_SUCCESS",
+        "Description": "Fires when the contents of a successfully loaded knowledge base article become available"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_QUERY_LOAD_FAILURE",
+        "Description": "Fires when a knowledge base query fails"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_QUERY_LOAD_SUCCESS",
+        "Description": "Fires when results of a successful knowledge base query become available"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_SERVER_MESSAGE",
+        "Description": "Fires when the knowledge base server message changes or becomes available"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_SETUP_LOAD_FAILURE",
+        "Description": "Fires when the knowledge base's default listing fails to load"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_SETUP_LOAD_SUCCESS",
+        "Description": "Fires when the knowledge base's default listing becomes available"
+    },
+    {
+        "Event": "KNOWLEDGE_BASE_SYSTEM_MOTD_UPDATED",
+        "Description": "Fires when the knowledge base system's message of the day changes or becomes available"
+    },
+    {
+        "Event": "KNOWN_TITLES_UPDATE",
+        "Description": "Fires when the number of titles available to the player changes"
+    },
+    {
+        "Event": "LANGUAGE_LIST_CHANGED",
+        "Description": "Fires when the list of known languages changes."
+    },
+    {
+        "Event": "LAUNCHER_LOGIN_STATUS_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LEARNED_SPELL_IN_TAB",
+        "Description": "Fires when a spell is learned inside of a given spell book tab, including when spells are learned upon changing the active talent spec."
+    },
+    {
+        "Event": "LEVEL_GRANT_PROPOSED",
+        "Description": "Fires when the player is offered to instantly gain a level thanks to a Recruit-A-Friend partner"
+    },
+    {
+        "Event": "LFG_BONUS_FACTION_ID_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_BOOT_PROPOSAL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_COMPLETION_REWARD",
+        "Description": "Fires when the player receives the completion reward for a randoms LFG dungeon"
+    },
+    {
+        "Event": "LFG_INVALID_ERROR_MESSAGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_ACTIVE_ENTRY_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_APPLICANT_LIST_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_APPLICANT_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_APPLICATION_STATUS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_AVAILABILITY_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_ENTRY_CREATION_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_ENTRY_EXPIRED_TIMEOUT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_JOINED_GROUP",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_SEARCH_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_SEARCH_RESULTS_RECEIVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LIST_SEARCH_RESULT_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_LOCK_INFO_RECEIVED",
+        "Description": "Fires when LFR information is available"
+    },
+    {
+        "Event": "LFG_OFFER_CONTINUE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_OPEN_FROM_GOSSIP",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_PROPOSAL_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_PROPOSAL_SHOW",
+        "Description": "Fires when the LFD system has found a possible group"
+    },
+    {
+        "Event": "LFG_PROPOSAL_SUCCEEDED",
+        "Description": "Fires when an LFD group was successfully formed"
+    },
+    {
+        "Event": "LFG_PROPOSAL_UPDATE",
+        "Description": "Fires when a potential group member accepts or declines the LFD offer"
+    },
+    {
+        "Event": "LFG_QUEUE_STATUS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_CHECK_DECLINED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_CHECK_HIDE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_CHECK_ROLE_CHOSEN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_CHECK_SHOW",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_CHECK_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_ROLE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LFG_UPDATE",
+        "Description": "Fires when information about the player's LFG system settings changes or becomes available"
+    },
+    {
+        "Event": "LFG_UPDATE_RANDOM_INFO",
+        "Description": "Fires when instance information is available for populating the LFD frame"
+    },
+    {
+        "Event": "LF_GUILD_BROWSE_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LF_GUILD_MEMBERSHIP_LIST_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LF_GUILD_MEMBERSHIP_LIST_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LF_GUILD_POST_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LF_GUILD_RECRUITS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LF_GUILD_RECRUIT_LIST_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LIFESTEAL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOADING_SCREEN_DISABLED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOADING_SCREEN_ENABLED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOCALPLAYER_PET_RENAMED",
+        "Description": "Fires when the player's pet is renamed"
+    },
+    {
+        "Event": "LOGIN_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOGIN_STOPPED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOGOUT_CANCEL",
+        "Description": "Fires when the logout countdown is aborted"
+    },
+    {
+        "Event": "LOOT_BIND_CONFIRM",
+        "Description": "Fires when the player attempts to loot a Bind on Pickup item"
+    },
+    {
+        "Event": "LOOT_CLOSED",
+        "Description": "Fires when the player ends interaction with a lootable corpse or object"
+    },
+    {
+        "Event": "LOOT_HISTORY_AUTO_SHOW",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_HISTORY_FULL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_HISTORY_ROLL_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_HISTORY_ROLL_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_ITEM_AVAILABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_ITEM_ROLL_WON",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_OPENED",
+        "Description": "Fires when the player begins interaction with a lootable corpse or object"
+    },
+    {
+        "Event": "LOOT_READY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_ROLLS_COMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_SLOT_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOOT_SLOT_CLEARED",
+        "Description": "Fires when the contents of a loot slot are removed"
+    },
+    {
+        "Event": "LOSS_OF_CONTROL_ADDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LOSS_OF_CONTROL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "LUA_WARNING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MACRO_ACTION_BLOCKED",
+        "Description": "Fires when a macro script attempts to use a protected API "
+    },
+    {
+        "Event": "MACRO_ACTION_FORBIDDEN",
+        "Description": "Fires when a macro script attempts to use a protected API "
+    },
+    {
+        "Event": "MAIL_CLOSED",
+        "Description": "Fires when the player ends interaction with a mailbox"
+    },
+    {
+        "Event": "MAIL_FAILED",
+        "Description": "Fires when an outgoing mail message fails to send"
+    },
+    {
+        "Event": "MAIL_INBOX_UPDATE",
+        "Description": "Fires when information about the contents of the player's inbox changes or becomes available"
+    },
+    {
+        "Event": "MAIL_LOCK_SEND_ITEMS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MAIL_SEND_INFO_UPDATE",
+        "Description": "Fires when information about the outgoing mail message's attachments changes"
+    },
+    {
+        "Event": "MAIL_SEND_SUCCESS",
+        "Description": "Fires when an outgoing message is successfully sent"
+    },
+    {
+        "Event": "MAIL_SHOW",
+        "Description": "Fires when the player begins interaction with a mailbox"
+    },
+    {
+        "Event": "MAIL_SUCCESS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MAIL_UNLOCK_SEND_ITEMS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MAP_BAR_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MASTERY_UPDATE",
+        "Description": "Fires when the player's mastery rating is updated"
+    },
+    {
+        "Event": "MAX_SPELL_START_RECOVERY_OFFSET_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MERCHANT_CLOSED",
+        "Description": "Fires when the player ends interaction with a vendor"
+    },
+    {
+        "Event": "MERCHANT_FILTER_ITEM_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MERCHANT_SHOW",
+        "Description": "Fires when the player begins interaction with a vendor"
+    },
+    {
+        "Event": "MERCHANT_UPDATE",
+        "Description": "Fires when information about a vendor's available items changes or becomes available"
+    },
+    {
+        "Event": "MINIMAP_PING",
+        "Description": "Fires when the player or a group member \"pings\" a point on the minimap to share its location with the group"
+    },
+    {
+        "Event": "MINIMAP_UPDATE_TRACKING",
+        "Description": "Fires when the player's currently active tracking ability changes"
+    },
+    {
+        "Event": "MINIMAP_UPDATE_ZOOM",
+        "Description": "Fires when the minimap zoom type changes"
+    },
+    {
+        "Event": "MIRROR_TIMER_PAUSE",
+        "Description": "Fires when a special countdown timer is paused"
+    },
+    {
+        "Event": "MIRROR_TIMER_START",
+        "Description": "Fires when a special countdown timer starts"
+    },
+    {
+        "Event": "MIRROR_TIMER_STOP",
+        "Description": "Fires when a special countdown timer stops"
+    },
+    {
+        "Event": "MISSING_OUT_ON_LOOT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MODIFIER_STATE_CHANGED",
+        "Description": "Fires when a modifier key is pressed or released."
+    },
+    {
+        "Event": "MOUNT_CURSOR_CLEAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MOUNT_JOURNAL_USABILITY_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MOVIE_COMPRESSING_PROGRESS",
+        "Description": "Fires when compression of a movie recording starts"
+    },
+    {
+        "Event": "MOVIE_RECORDING_PROGRESS",
+        "Description": "Fires when movie recording starts"
+    },
+    {
+        "Event": "MOVIE_UNCOMPRESSED_MOVIE",
+        "Description": "Fires when the client prompts the player to allow compression of a movie recording"
+    },
+    {
+        "Event": "MULTISTRIKE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "MUTELIST_UPDATE",
+        "Description": "Fires when the content of the player's muted list becomes available or changes"
+    },
+    {
+        "Event": "NEUTRAL_FACTION_SELECT_RESULT",
+        "Description": "Fires when Pandarian player will choose his side (Alliance/Horde)."
+    },
+    {
+        "Event": "NEW_AUCTION_UPDATE",
+        "Description": "Fires when the content of the auction house's Create Auction item slot changes"
+    },
+    {
+        "Event": "NEW_TITLE_EARNED",
+        "Description": "Fires when the player earns a new title"
+    },
+    {
+        "Event": "NEW_WMO_CHUNK",
+        "Description": "Fires when stepping off of a world map object"
+    },
+    {
+        "Event": "NPC_PVPQUEUE_ANYWHERE",
+        "Description": "Fires when the player begins interaction with an NPC which can queue the player for any battleground"
+    },
+    {
+        "Event": "NPE_TUTORIAL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "OLD_TITLE_LOST",
+        "Description": "Fires when one of the player's titles is no longer available"
+    },
+    {
+        "Event": "OPEN_MASTER_LOOT_LIST",
+        "Description": "Fires when the list of master loot candidates becomes available"
+    },
+    {
+        "Event": "OPEN_REALM_LIST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "OPEN_STATUS_DIALOG",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "OPEN_TABARD_FRAME",
+        "Description": "Fires when the player begins interaction with a tabard designer"
+    },
+    {
+        "Event": "PARTY_CONVERTED_TO_RAID",
+        "Description": "Fires when the player's party becomes a raid group"
+    },
+    {
+        "Event": "PARTY_INVITE_CANCEL",
+        "Description": "Fires when a pending invitation to join a group is no longer available"
+    },
+    {
+        "Event": "PARTY_INVITE_REQUEST",
+        "Description": "Fires when the player is invited to join a group"
+    },
+    {
+        "Event": "PARTY_LEADER_CHANGED",
+        "Description": "Fires when information about the leadership of the player's party changes or becomes available"
+    },
+    {
+        "Event": "PARTY_LFG_RESTRICTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PARTY_LOOT_METHOD_CHANGED",
+        "Description": "Fires when information about the loot rules for the player's party changes or becomes available"
+    },
+    {
+        "Event": "PARTY_MEMBERS_CHANGED",
+        "Description": "Fires when information about the membership of the player's party changes or becomes available"
+    },
+    {
+        "Event": "PARTY_MEMBER_DISABLE",
+        "Description": "Fires when a party member goes offline"
+    },
+    {
+        "Event": "PARTY_MEMBER_ENABLE",
+        "Description": "Fires when an offline party member comes back online"
+    },
+    {
+        "Event": "PARTY_REFER_A_FRIEND_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PATCH_DOWNLOADED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PATCH_UPDATE_PROGRESS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PETITION_CLOSED",
+        "Description": "Fires when the player ends interaction with a guild or arena team charter"
+    },
+    {
+        "Event": "PETITION_SHOW",
+        "Description": "Fires when a guild or arena team charter is presented to the player"
+    },
+    {
+        "Event": "PETITION_VENDOR_CLOSED",
+        "Description": "Fires when the player ends interaction with an arena registrar"
+    },
+    {
+        "Event": "PETITION_VENDOR_SHOW",
+        "Description": "Fires when the player begins interaction with an arena registrar"
+    },
+    {
+        "Event": "PETITION_VENDOR_UPDATE",
+        "Description": "Fires when information about available options at an arena registrar becomes available"
+    },
+    {
+        "Event": "PET_ATTACK_START",
+        "Description": "Fires when the player's pet starts auto-attacking"
+    },
+    {
+        "Event": "PET_ATTACK_STOP",
+        "Description": "Fires when the player's pet stops auto-attacking"
+    },
+    {
+        "Event": "PET_BAR_HIDE",
+        "Description": "Fires when the pet action bar should be hidden"
+    },
+    {
+        "Event": "PET_BAR_HIDEGRID",
+        "Description": "Fires when a pet ability is removed from the cursor"
+    },
+    {
+        "Event": "PET_BAR_SHOWGRID",
+        "Description": "Fires when a pet ability is picked up onto the cursor"
+    },
+    {
+        "Event": "PET_BAR_UPDATE",
+        "Description": "Fires when information about the content of the pet action bar changes or becomes available"
+    },
+    {
+        "Event": "PET_BAR_UPDATE_COOLDOWN",
+        "Description": "Fires when the cooldown begins or ends for an ability on the pet action bar"
+    },
+    {
+        "Event": "PET_BAR_UPDATE_USABLE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_ABILITY_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_ACTION_SELECTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_AURA_APPLIED",
+        "Description": "Fires when an aura is applied to a pet in a pet battle"
+    },
+    {
+        "Event": "PET_BATTLE_AURA_CANCELED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_AURA_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_CAPTURED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_CLOSE",
+        "Description": "Fired when the pet battle interface closes at the end of a battle"
+    },
+    {
+        "Event": "PET_BATTLE_FINAL_ROUND",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_HEALTH_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_LEVEL_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_LOOT_RECEIVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_MAX_HEALTH_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_OPENING_DONE",
+        "Description": "Fires when the opening sequence of a pet battle ends."
+    },
+    {
+        "Event": "PET_BATTLE_OPENING_START",
+        "Description": "Fires when the opening sequence of a pet battle begins"
+    },
+    {
+        "Event": "PET_BATTLE_OVER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_PET_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_PET_ROUND_PLAYBACK_COMPLETE",
+        "Description": "Fires when pet battle combat animation ends."
+    },
+    {
+        "Event": "PET_BATTLE_PET_ROUND_RESULTS",
+        "Description": "Fires when pet battle combat animation begins."
+    },
+    {
+        "Event": "PET_BATTLE_PET_TYPE_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_PVP_DUEL_REQUESTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_PVP_DUEL_REQUEST_CANCEL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_QUEUE_PROPOSAL_ACCEPTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_QUEUE_PROPOSAL_DECLINED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_QUEUE_PROPOSE_MATCH",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_QUEUE_STATUS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_TURN_STARTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_BATTLE_XP_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_DISMISS_START",
+        "Description": "Fires when the player's pet is dismissed"
+    },
+    {
+        "Event": "PET_FORCE_NAME_DECLENSION",
+        "Description": "Fires when the player is prompted to provide Russian declensions for a pet's name"
+    },
+    {
+        "Event": "PET_JOURNAL_AUTO_SLOTTED_PET",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_CAGE_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_LIST_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_NEW_BATTLE_SLOT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_PETS_HEALED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_PET_DELETED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_PET_RESTORED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_PET_REVOKED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_JOURNAL_TRAP_LEVEL_SET",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_RENAMEABLE",
+        "Description": "Fires when the player is prompted to rename a pet which has been renamed before"
+    },
+    {
+        "Event": "PET_SPECIALIZATION_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_SPELL_POWER_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PET_STABLE_CLOSED",
+        "Description": "Fires when the player ends interaction with the pet stables"
+    },
+    {
+        "Event": "PET_STABLE_SHOW",
+        "Description": "Fires when the player begins interaction with the pet stables"
+    },
+    {
+        "Event": "PET_STABLE_UPDATE",
+        "Description": "Fires when information about the pet stables' content changes or becomes available"
+    },
+    {
+        "Event": "PET_STABLE_UPDATE_PAPERDOLL",
+        "Description": "Fires when information about 3D models used in the pet stables becomes available"
+    },
+    {
+        "Event": "PET_UI_CLOSE",
+        "Description": "Fires when information about the player's pet is no longer available"
+    },
+    {
+        "Event": "PET_UI_UPDATE",
+        "Description": "Fires when information about the player's pet changes or becomes available"
+    },
+    {
+        "Event": "PLAYERBANKBAGSLOTS_CHANGED",
+        "Description": "Fires when the number of bank bag slots purchased by the player changes"
+    },
+    {
+        "Event": "PLAYERBANKSLOTS_CHANGED",
+        "Description": "Fires when the contents of a bank slot or bank bag slot are changed"
+    },
+    {
+        "Event": "PLAYERREAGENTBANKSLOTS_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_ALIVE",
+        "Description": "Fires when the player's spirit is released after death or when the player accepts a resurrection without releasing"
+    },
+    {
+        "Event": "PLAYER_AURAS_CHANGED",
+        "Description": "Fires when the player gains or loses a buff or debuff"
+    },
+    {
+        "Event": "PLAYER_AVG_ITEM_LEVEL_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_CAMPING",
+        "Description": "Fires when the player attempts to log out while not in a major city, inn, or other \"resting\" area"
+    },
+    {
+        "Event": "PLAYER_CHARACTER_UPGRADE_TALENT_COUNT_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_CONTROL_GAINED",
+        "Description": "Fires when the player regains control of his or her character"
+    },
+    {
+        "Event": "PLAYER_CONTROL_LOST",
+        "Description": "Fires when the player loses control of his or her character"
+    },
+    {
+        "Event": "PLAYER_DAMAGE_DONE_MODS",
+        "Description": "Fires when an effect changes the player's spell bonus damage"
+    },
+    {
+        "Event": "PLAYER_DEAD",
+        "Description": "Fires when the player dies"
+    },
+    {
+        "Event": "PLAYER_DIFFICULTY_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_ENTERING_BATTLEGROUND",
+        "Description": "Fires when the player enters a battleground instance"
+    },
+    {
+        "Event": "PLAYER_ENTERING_WORLD",
+        "Description": "Fired when the player enters the world, reloads the UI, enters/leaves an instance or battleground, or respawns at a graveyard. Also fires any other time the player sees a loading screen"
+    },
+    {
+        "Event": "PLAYER_ENTER_COMBAT",
+        "Description": "Fires when the player begins melee auto-attack mode"
+    },
+    {
+        "Event": "PLAYER_ENTER_MATRIX",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_ENTER_PIN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_ENTER_TOKEN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_EQUIPMENT_CHANGED",
+        "Description": "Fires when the player equips or unequips an item"
+    },
+    {
+        "Event": "PLAYER_FARSIGHT_FOCUS_CHANGED",
+        "Description": "Fires when the player's viewpoint changes"
+    },
+    {
+        "Event": "PLAYER_FLAGS_CHANGED",
+        "Description": "Fires when a unit's AFK or DND status changes"
+    },
+    {
+        "Event": "PLAYER_FOCUS_CHANGED",
+        "Description": "Fires when the player's focus unit changes"
+    },
+    {
+        "Event": "PLAYER_GAINS_VEHICLE_DATA",
+        "Description": "Fires when the player gains vehicle-related attributes without necessarily entering a vehicle"
+    },
+    {
+        "Event": "PLAYER_GUILD_UPDATE",
+        "Description": "Fires when information about the player's guild membership changes"
+    },
+    {
+        "Event": "PLAYER_LEAVE_COMBAT",
+        "Description": "Fires when the player stops melee auto-attack mode"
+    },
+    {
+        "Event": "PLAYER_LEAVING_WORLD",
+        "Description": "Fires when the player logs out or exits a world area"
+    },
+    {
+        "Event": "PLAYER_LEVEL_UP",
+        "Description": "Fires when the player gains a character level"
+    },
+    {
+        "Event": "PLAYER_LOGIN",
+        "Description": "Fires immediately before `PLAYER_ENTERING_WORLD` on login and UI reload"
+    },
+    {
+        "Event": "PLAYER_LOGOUT",
+        "Description": "Fires immediately before the player is logged out of the game"
+    },
+    {
+        "Event": "PLAYER_LOOT_SPEC_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_LOSES_VEHICLE_DATA",
+        "Description": "Fires when the player loses vehicle-related attributes without necessarily having been in a vehicle"
+    },
+    {
+        "Event": "PLAYER_MONEY",
+        "Description": "Fires when the player gains or spends money"
+    },
+    {
+        "Event": "PLAYER_PVP_KILLS_CHANGED",
+        "Description": "Fires whenever a player's number of Honorable Kills changes"
+    },
+    {
+        "Event": "PLAYER_PVP_RANK_CHANGED",
+        "Description": "Fires when the player's PvP rank changes"
+    },
+    {
+        "Event": "PLAYER_QUITING",
+        "Description": "Fires when the player attempts to exit WoW while not in a major city, inn, or other \"resting\" area"
+    },
+    {
+        "Event": "PLAYER_REGEN_DISABLED",
+        "Description": "Fires when the player enters combat status"
+    },
+    {
+        "Event": "PLAYER_REGEN_ENABLED",
+        "Description": "Fires when the player leaves combat status"
+    },
+    {
+        "Event": "PLAYER_REPORT_SUBMITTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_ROLES_ASSIGNED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_SKINNED",
+        "Description": "Fires when another character takes the insignia from the player's corpse in a battleground or world PvP zone"
+    },
+    {
+        "Event": "PLAYER_SPECIALIZATION_CHANGED",
+        "Description": "Fires when the player, group member or raid member switches specialization."
+    },
+    {
+        "Event": "PLAYER_STARTED_MOVING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_STOPPED_MOVING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_TALENT_UPDATE",
+        "Description": "Fires when the player gains or spends talent points"
+    },
+    {
+        "Event": "PLAYER_TARGET_CHANGED",
+        "Description": "Fires when the player changes targets"
+    },
+    {
+        "Event": "PLAYER_TOTEM_UPDATE",
+        "Description": "Fires when information about the player's placed totems changes or becomes available"
+    },
+    {
+        "Event": "PLAYER_TRADE_CURRENCY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PLAYER_TRADE_MONEY",
+        "Description": "Fires when the amount of money offered for trade by the player changes"
+    },
+    {
+        "Event": "PLAYER_UNGHOST",
+        "Description": "Fires when a player resurrects after being in spirit form"
+    },
+    {
+        "Event": "PLAYER_UPDATE_RESTING",
+        "Description": "Fires when the player enters or leaves a major city, inn or other \"resting\" area"
+    },
+    {
+        "Event": "PLAYER_XP_UPDATE",
+        "Description": "Fires when the player's amount of accrued experience points changes"
+    },
+    {
+        "Event": "PLAYTIME_CHANGED",
+        "Description": "Fires when changes to the player's limited play time status take effect"
+    },
+    {
+        "Event": "PLAY_MOVIE",
+        "Description": "Fires when an in-game movie should be played"
+    },
+    {
+        "Event": "PREVIEW_TALENT_POINTS_CHANGED",
+        "Description": "Fires when the player spends or unspends talent points in preview mode"
+    },
+    {
+        "Event": "PREVIEW_TALENT_PRIMARY_TREE_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PRODUCT_ASSIGN_TO_TARGET_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PRODUCT_CHOICE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PRODUCT_DISTRIBUTIONS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PROVING_GROUNDS_SCORE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PVPQUEUE_ANYWHERE_SHOW",
+        "Description": "Fires when the player begins interacting with the UI feature allowing battleground queueing from any location"
+    },
+    {
+        "Event": "PVPQUEUE_ANYWHERE_UPDATE_AVAILABLE",
+        "Description": "Fires when information for the any-battleground queueing UI changes or becomes available"
+    },
+    {
+        "Event": "PVP_POWER_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PVP_RATED_STATS_UPDATE",
+        "Description": "Fires when GetPersonalRatedBGInfo() return variables changes or becomes available."
+    },
+    {
+        "Event": "PVP_REWARDS_UPDATE",
+        "Description": "Fires when information about Conquest Points cap changes or becomes available"
+    },
+    {
+        "Event": "PVP_ROLE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "PVP_TYPES_ENABLED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUESTLINE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUESTTASK_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_ACCEPTED",
+        "Description": "Fires when a new quest is added to the player's quest log (which is what happens after a player accepts a quest)."
+    },
+    {
+        "Event": "QUEST_ACCEPT_CONFIRM",
+        "Description": "Fires when certain kinds of quests (e.g. NPC escort quests) are started by another member of the player's group"
+    },
+    {
+        "Event": "QUEST_AUTOCOMPLETE",
+        "Description": "Fires when a quest is automatically completed (remote handin available)"
+    },
+    {
+        "Event": "QUEST_BOSS_EMOTE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_CHOICE_CLOSE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_CHOICE_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_COMPLETE",
+        "Description": "Fires when the player is looking at the \"Complete\" page for a quest, at a questgiver."
+    },
+    {
+        "Event": "QUEST_DETAIL",
+        "Description": "Fires when details of an available quest are presented by a questgiver"
+    },
+    {
+        "Event": "QUEST_FINISHED",
+        "Description": "Fires when the player ends interaction with a questgiver or ends a stage of the questgiver dialog"
+    },
+    {
+        "Event": "QUEST_GREETING",
+        "Description": "Fires when a questgiver presents a greeting along with a list of active or available quests"
+    },
+    {
+        "Event": "QUEST_ITEM_UPDATE",
+        "Description": "Fires when information about items in a questgiver dialog is updated"
+    },
+    {
+        "Event": "QUEST_LOG_UPDATE",
+        "Description": "Fires when the game client receives updates relating to the player's quest log (this event is not just related to the quests inside it)"
+    },
+    {
+        "Event": "QUEST_POI_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_PROGRESS",
+        "Description": "Fires when interacting with a questgiver about an active quest"
+    },
+    {
+        "Event": "QUEST_REMOVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_TURNED_IN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_WATCH_LIST_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_WATCH_OBJECTIVES_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUEST_WATCH_UPDATE",
+        "Description": "Fires when the player's status regarding a quest's objectives changes, for instance picking up a required object or killing a mob for that quest. All forms of (quest objective) progress changes will trigger this event."
+    },
+    {
+        "Event": "QUICK_TICKET_SYSTEM_STATUS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "QUICK_TICKET_THROTTLE_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RAID_BOSS_EMOTE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RAID_BOSS_WHISPER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RAID_INSTANCE_WELCOME",
+        "Description": "Fires when the player enters an instance that has a reset timer"
+    },
+    {
+        "Event": "RAID_ROSTER_UPDATE",
+        "Description": "Fires when the raid roster changes"
+    },
+    {
+        "Event": "RAID_TARGET_UPDATE",
+        "Description": "Fires when raid target icons are assigned or cleared"
+    },
+    {
+        "Event": "RAISED_AS_GHOUL",
+        "Description": "Fires when the player is raised as a ghoul by a friendly death knight"
+    },
+    {
+        "Event": "RANDOM_CHARACTER_NAME_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "READINESS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "READY_CHECK",
+        "Description": "Fires when a ready check is triggered"
+    },
+    {
+        "Event": "READY_CHECK_CONFIRM",
+        "Description": "Fires when a unit responds to a ready check"
+    },
+    {
+        "Event": "READY_CHECK_FINISHED",
+        "Description": "Fires when a ready check ends"
+    },
+    {
+        "Event": "REAGENTBANK_PURCHASED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "REAGENTBANK_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RECEIVED_ACHIEVEMENT_LIST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RECEIVED_ACHIEVEMENT_MEMBER_LIST",
+        "Description": "Fires when the list of players that earned an achievement is received"
+    },
+    {
+        "Event": "RECRUIT_A_FRIEND_CAN_EMAIL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RECRUIT_A_FRIEND_INVITATION_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RECRUIT_A_FRIEND_INVITER_FRIEND_ADDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RECRUIT_A_FRIEND_SYSTEM_STATUS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "REPLACE_ENCHANT",
+        "Description": "Fires when the player attempts to enchant an item which is already enchanted"
+    },
+    {
+        "Event": "REQUEST_CEMETERY_LIST_RESPONSE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "REQUIRED_GUILD_RENAME_RESULT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RESTRICTED_ACCOUNT_WARNING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RESURRECT_REQUEST",
+        "Description": "Fires when another character offers to resurrect the player"
+    },
+    {
+        "Event": "ROLE_CHANGED_INFORM",
+        "Description": "Fires when a party/raid member's role is changed manually"
+    },
+    {
+        "Event": "ROLE_POLL_BEGIN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "RUNE_POWER_UPDATE",
+        "Description": "Fires when the availability of one of the player's rune resources changes"
+    },
+    {
+        "Event": "RUNE_TYPE_UPDATE",
+        "Description": "Fires when the type of one of the player's rune resources changes"
+    },
+    {
+        "Event": "SAVED_VARIABLES_TOO_LARGE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCANDLL_DOWNLOADING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCANDLL_ERROR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCANDLL_FINISHED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCENARIO_COMPLETED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCENARIO_CRITERIA_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCENARIO_POI_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCENARIO_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCREENSHOT_FAILED",
+        "Description": "Fires if an attempt to take a screenshot fails"
+    },
+    {
+        "Event": "SCREENSHOT_SUCCEEDED",
+        "Description": "Fires when a screenshot is successfully taken"
+    },
+    {
+        "Event": "SCREEN_FIRST_DISPLAYED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SCRIPT_ACHIEVEMENT_PLAYER_NAME",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SELECT_FIRST_CHARACTER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SELECT_LAST_CHARACTER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SELF_RES_SPELL_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SEND_MAIL_COD_CHANGED",
+        "Description": "Fires when the Cash On Delivery cost assigned for the outgoing mail message changes"
+    },
+    {
+        "Event": "SEND_MAIL_MONEY_CHANGED",
+        "Description": "Fires when the amount of money attached to the outgoing mail message changes"
+    },
+    {
+        "Event": "SERVER_SPLIT_NOTICE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SESSION_TIME_ALERT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SET_GLUE_SCREEN",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHIPMENT_CRAFTER_CLOSED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHIPMENT_CRAFTER_INFO",
+        "Description": "Shipment Crafter Info"
+    },
+    {
+        "Event": "SHIPMENT_CRAFTER_OPENED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHIPMENT_CRAFTER_REAGENT_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHIPMENT_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_FACTION_SELECT_UI",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_LOOT_TOAST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_LOOT_TOAST_UPGRADE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_PVP_FACTION_LOOT_TOAST",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_SERVER_ALERT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SHOW_SURVEY_NOTIFICATION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SIMPLE_BROWSER_WEB_ERROR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SIMPLE_BROWSER_WEB_PROXY_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SKILL_LINES_CHANGED",
+        "Description": "Fires when the content of the player's skill list changes"
+    },
+    {
+        "Event": "SOCKET_INFO_ACCEPT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SOCKET_INFO_CLOSE",
+        "Description": "Fires when the player ends interaction with the item socketing UI"
+    },
+    {
+        "Event": "SOCKET_INFO_SUCCESS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SOCKET_INFO_UPDATE",
+        "Description": "Fires when information about the contents of the item socketing UI changes or becomes available"
+    },
+    {
+        "Event": "SOR_BY_TEXT_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SOR_COUNTS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SOR_START_EXPERIENCE_INCOMPLETE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SOUND_DEVICE_UPDATE",
+        "Description": "Fires when information about sound input/output devices changes or becomes available"
+    },
+    {
+        "Event": "SPEED_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELLS_CHANGED",
+        "Description": "Fires when information about the contents of the player's spellbook changes or becomes available"
+    },
+    {
+        "Event": "SPELL_ACTIVATION_OVERLAY_GLOW_HIDE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_ACTIVATION_OVERLAY_GLOW_SHOW",
+        "Description": "Fires when a reactive spell becomes active"
+    },
+    {
+        "Event": "SPELL_ACTIVATION_OVERLAY_HIDE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_ACTIVATION_OVERLAY_SHOW",
+        "Description": "Fires when the player receives a reactive buff that should appear on the screen overlay"
+    },
+    {
+        "Event": "SPELL_CONFIRMATION_PROMPT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_CONFIRMATION_TIMEOUT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_FLYOUT_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_POWER_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_PUSHED_TO_ACTIONBAR",
+        "Description": "When you learn a spell and it's placed on the actionbar, this event fires and tells the IconIntroAnimation frame to animate the icon and place it on the actionbar slot."
+    },
+    {
+        "Event": "SPELL_UPDATE_CHARGES",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SPELL_UPDATE_COOLDOWN",
+        "Description": "Fires when the cooldown on one of the player's spells begins or ends"
+    },
+    {
+        "Event": "SPELL_UPDATE_USABLE",
+        "Description": "Fires when a spell becomes usable or unusable"
+    },
+    {
+        "Event": "START_AUTOREPEAT_SPELL",
+        "Description": "Fires when the player casts a spell which automatically repeats"
+    },
+    {
+        "Event": "START_GLUE_MUSIC",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "START_LOOT_ROLL",
+        "Description": "Fires when an item becomes available for group loot rolling"
+    },
+    {
+        "Event": "START_TIMER",
+        "Description": "Tells TimerFrame what timebar to create, informs about the current time left and the original value it started to countdown from."
+    },
+    {
+        "Event": "STOP_AUTOREPEAT_SPELL",
+        "Description": "Fires when the player stops repetition of an automatically repeating spell"
+    },
+    {
+        "Event": "STORE_CONFIRM_PURCHASE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_ORDER_INITIATION_FAILED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_PRODUCTS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_PRODUCT_DELIVERED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_PURCHASE_ERROR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_PURCHASE_LIST_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STORE_STATUS_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "STREAMING_ICON",
+        "Description": "Fires when the game starts or stops downloading or patching content that is not yet ready"
+    },
+    {
+        "Event": "STURDINESS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SUGGEST_REALM",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SUGGEST_REALM_WRONG_CATEGORY",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SUGGEST_REALM_WRONG_PVP",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SUPER_TRACKED_QUEST_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "SYNCHRONIZE_SETTINGS",
+        "Description": "Fires when game options are manually synchronized with those saved on the server"
+    },
+    {
+        "Event": "TABARD_CANSAVE_CHANGED",
+        "Description": "Fires when information about the player's ability to save a guild tabard design changes or becomes available"
+    },
+    {
+        "Event": "TABARD_SAVE_PENDING",
+        "Description": "Fires when the player attempts to save a guild tabard design"
+    },
+    {
+        "Event": "TALENTS_INVOLUNTARILY_RESET",
+        "Description": "Fires when the player's talents have undergone a forced reset"
+    },
+    {
+        "Event": "TASK_PROGRESS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TAXIMAP_CLOSED",
+        "Description": "Fires when the player begins interaction with a flight master"
+    },
+    {
+        "Event": "TAXIMAP_OPENED",
+        "Description": "Fires when the player ends interaction with a flight master"
+    },
+    {
+        "Event": "TIMER_ALERT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TIME_PLAYED_MSG",
+        "Description": "Fires when information about the player's total time played becomes available"
+    },
+    {
+        "Event": "TOYS_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRACKED_ACHIEVEMENT_LIST_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRACKED_ACHIEVEMENT_UPDATE",
+        "Description": "Fires when the player's progress changes on an achievement marked for watching in the objectives tracker"
+    },
+    {
+        "Event": "TRADE_ACCEPT_UPDATE",
+        "Description": "Fires when the player or trade target signals acceptance (or cancels acceptance) of the trade"
+    },
+    {
+        "Event": "TRADE_CLOSED",
+        "Description": "Fires when a trade with another player ends or is canceled"
+    },
+    {
+        "Event": "TRADE_CURRENCY_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRADE_MONEY_CHANGED",
+        "Description": "Fires when the amount of money offered by the trade target changes"
+    },
+    {
+        "Event": "TRADE_PLAYER_ITEM_CHANGED",
+        "Description": "Fires when the set of items offered for trade by the player changes"
+    },
+    {
+        "Event": "TRADE_POTENTIAL_BIND_ENCHANT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRADE_REPLACE_ENCHANT",
+        "Description": "Fires if the player attempts to enchant an item offered by the trade target which is already enchanted"
+    },
+    {
+        "Event": "TRADE_REQUEST",
+        "Description": "Unused"
+    },
+    {
+        "Event": "TRADE_REQUEST_CANCEL",
+        "Description": "Unused"
+    },
+    {
+        "Event": "TRADE_SHOW",
+        "Description": "Fires when a trade interaction with another character begins"
+    },
+    {
+        "Event": "TRADE_SKILL_CLOSE",
+        "Description": "Fires when the player ends interaction with a trade skill recipe list"
+    },
+    {
+        "Event": "TRADE_SKILL_FILTER_UPDATE",
+        "Description": "Fires when the search filter for a trade skill recipe list changes"
+    },
+    {
+        "Event": "TRADE_SKILL_NAME_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRADE_SKILL_SHOW",
+        "Description": "Fires when the player begins interaction with a trade skill recipe list"
+    },
+    {
+        "Event": "TRADE_SKILL_UPDATE",
+        "Description": "Fires when information about the contents of a trade skill recipe list changes or becomes available"
+    },
+    {
+        "Event": "TRADE_TARGET_ITEM_CHANGED",
+        "Description": "Fires when the set of items offered for trade by the target changes"
+    },
+    {
+        "Event": "TRADE_UPDATE",
+        "Description": "Fires when new information becomes available about a trade process underway with another character"
+    },
+    {
+        "Event": "TRAINER_CLOSED",
+        "Description": "Fires when the player ends interaction with a class or skill trainer"
+    },
+    {
+        "Event": "TRAINER_DESCRIPTION_UPDATE",
+        "Description": "Fires when description information for the selected trainer service changes or becomes available"
+    },
+    {
+        "Event": "TRAINER_SHOW",
+        "Description": "Fires when the player begins interaction with a class or skill trainer"
+    },
+    {
+        "Event": "TRAINER_UPDATE",
+        "Description": "Fires when information about the contents of the trainer service list changes or becomes available"
+    },
+    {
+        "Event": "TRANSMOGRIFY_BIND_CONFIRM",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRANSMOGRIFY_CLOSE",
+        "Description": "Fires when the Transmogrify window closes."
+    },
+    {
+        "Event": "TRANSMOGRIFY_OPEN",
+        "Description": "Fires when the Transmogrify window opens."
+    },
+    {
+        "Event": "TRANSMOGRIFY_SUCCESS",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRANSMOGRIFY_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "TRIAL_CAP_REACHED_LEVEL",
+        "Description": "Fired when a trial account reaches level 20."
+    },
+    {
+        "Event": "TRIAL_CAP_REACHED_MONEY",
+        "Description": "Fires when a trial account reaches it's gold cap of 10g."
+    },
+    {
+        "Event": "TUTORIAL_TRIGGER",
+        "Description": "Fires when a contextual tutorial should be shown"
+    },
+    {
+        "Event": "UI_ERROR_MESSAGE",
+        "Description": "Fires when a game error message should be displayed"
+    },
+    {
+        "Event": "UI_INFO_MESSAGE",
+        "Description": "Fires when an informative message should be displayed"
+    },
+    {
+        "Event": "UI_SCALE_CHANGED",
+        "Description": "Fires when the UI scale changes"
+    },
+    {
+        "Event": "UNIT_ABSORB_AMOUNT_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_ATTACK",
+        "Description": "Fires when a unit's weapon (or standard melee attack damage) changes"
+    },
+    {
+        "Event": "UNIT_ATTACK_POWER",
+        "Description": "Fires when a unit's attack power changes"
+    },
+    {
+        "Event": "UNIT_ATTACK_SPEED",
+        "Description": "Fires when a unit's attack speed changes"
+    },
+    {
+        "Event": "UNIT_AURA",
+        "Description": "Fires when a unit loses or gains a buff or debuff."
+    },
+    {
+        "Event": "UNIT_CLASSIFICATION_CHANGED",
+        "Description": "Fires when a unit changes classification (e.g. if an elite unit becomes non-elite)"
+    },
+    {
+        "Event": "UNIT_COMBAT",
+        "Description": "Fires when a unit takes or recovers from damage due to a combat effect"
+    },
+    {
+        "Event": "UNIT_COMBO_POINTS",
+        "Description": "Fires when a unit scores combo points on its target"
+    },
+    {
+        "Event": "UNIT_CONNECTION",
+        "Description": "Fires when the connection status for a unit has changed."
+    },
+    {
+        "Event": "UNIT_DAMAGE",
+        "Description": "Fires when a unit's weapon damage changes."
+    },
+    {
+        "Event": "UNIT_DEFENSE",
+        "Description": "Fires when a unit's defense changes."
+    },
+    {
+        "Event": "UNIT_DISPLAYPOWER",
+        "Description": "Fires when a unit's primary power type (e.g. rage, energy, mana) changes"
+    },
+    {
+        "Event": "UNIT_ENTERED_VEHICLE",
+        "Description": "Fires when a unit has entered a vehicle"
+    },
+    {
+        "Event": "UNIT_ENTERING_VEHICLE",
+        "Description": "Fires when a unit begins entering a vehicle"
+    },
+    {
+        "Event": "UNIT_EXITED_VEHICLE",
+        "Description": "Fires when a unit has exited a vehicle"
+    },
+    {
+        "Event": "UNIT_EXITING_VEHICLE",
+        "Description": "Fires when a unit begins exiting a vehicle"
+    },
+    {
+        "Event": "UNIT_FACTION",
+        "Description": "Fires when a unit's PvP status changes"
+    },
+    {
+        "Event": "UNIT_FLAGS",
+        "Description": "Fires when certain combat statuses for a unit change (e.g. stunned, feared)"
+    },
+    {
+        "Event": "UNIT_GUILD_LEVEL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_HEALTH",
+        "Description": "Fires when a unit's health level changes"
+    },
+    {
+        "Event": "UNIT_HEALTH_FREQUENT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_HEAL_ABSORB_AMOUNT_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_HEAL_PREDICTION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_INVENTORY_CHANGED",
+        "Description": "Fires when the player (or inspected unit) equips or unequips items"
+    },
+    {
+        "Event": "UNIT_LEVEL",
+        "Description": "Fires when a unit's character level changes"
+    },
+    {
+        "Event": "UNIT_MANA",
+        "Description": "Fires when a unit's mana level changes"
+    },
+    {
+        "Event": "UNIT_MAXHEALTH",
+        "Description": "Fires when a unit's maximum health changes"
+    },
+    {
+        "Event": "UNIT_MAXPOWER",
+        "Description": "Fires when the max power of a unit changes"
+    },
+    {
+        "Event": "UNIT_MODEL_CHANGED",
+        "Description": "Fires when a unit's 3D model changes (e.g. due to shapeshifting, being polymorphed, or equipping gear)"
+    },
+    {
+        "Event": "UNIT_NAME_UPDATE",
+        "Description": "Fires when a unit's name is changed"
+    },
+    {
+        "Event": "UNIT_OTHER_PARTY_CHANGED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_PET",
+        "Description": "Fires when a unit gains or loses a pet"
+    },
+    {
+        "Event": "UNIT_PET_EXPERIENCE",
+        "Description": "Fires when the player's pet gains experience points"
+    },
+    {
+        "Event": "UNIT_PHASE",
+        "Description": "Fires when a unit's phasing status changes"
+    },
+    {
+        "Event": "UNIT_PORTRAIT_UPDATE",
+        "Description": "Fires when a unit's portrait changes (e.g. due to shapeshifting, being polymorphed, or equipping gear)"
+    },
+    {
+        "Event": "UNIT_POWER",
+        "Description": "Fires when a unit's power level changes."
+    },
+    {
+        "Event": "UNIT_POWER_BAR_HIDE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_POWER_BAR_SHOW",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_POWER_BAR_TIMER_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_POWER_FREQUENT",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_QUEST_LOG_CHANGED",
+        "Description": "Fires when a unit's quests change (accepted/objective progress/abandoned/completed)"
+    },
+    {
+        "Event": "UNIT_RANGEDDAMAGE",
+        "Description": "Fires when a unit's ranged attack damage changes. Also fires when a unit's ranged attack speed changes."
+    },
+    {
+        "Event": "UNIT_RANGED_ATTACK_POWER",
+        "Description": "Fires when a unit's ranged attack power changes"
+    },
+    {
+        "Event": "UNIT_RESISTANCES",
+        "Description": "Fires when a unit's magic resistances change"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_CHANNEL_START",
+        "Description": "Fires when a unit starts channeling a spell"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_CHANNEL_STOP",
+        "Description": "Fires when a unit stops or cancels a channeled spell"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_CHANNEL_UPDATE",
+        "Description": "Fires when a unit's channeled spell is interrupted or delayed"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_DELAYED",
+        "Description": "Fires when a unit's spell cast is delayed"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_FAILED",
+        "Description": "Fires when a unit's spell cast fails"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_FAILED_QUIET",
+        "Description": "Fires when a unit's spell cast fails and no error message should be displayed"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_INTERRUPTED",
+        "Description": "Fires when a unit's spell cast is interrupted"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_INTERRUPTIBLE",
+        "Description": "Fires when a unit's spell cast becomes interruptible again"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_NOT_INTERRUPTIBLE",
+        "Description": "Fires when a unit's spell cast becomes uninterruptible"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_SENT",
+        "Description": "Fires when a request to cast a spell (on behalf of the player or a unit controlled by the player) is sent to the server"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_START",
+        "Description": "Fires when a unit begins casting a spell"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_STOP",
+        "Description": "Fires when a unit stops or cancels casting a spell"
+    },
+    {
+        "Event": "UNIT_SPELLCAST_SUCCEEDED",
+        "Description": "Fires when a unit's spell cast succeeds"
+    },
+    {
+        "Event": "UNIT_SPELL_HASTE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UNIT_STATS",
+        "Description": "Fires when a unit's primary attributes change"
+    },
+    {
+        "Event": "UNIT_TARGET",
+        "Description": "Fires when a unit's target changes"
+    },
+    {
+        "Event": "UNIT_TARGETABLE_CHANGED",
+        "Description": "Fires when the targetable status of a unit changes"
+    },
+    {
+        "Event": "UNIT_THREAT_LIST_UPDATE",
+        "Description": "Fires when a non-player unit's threat list is updated"
+    },
+    {
+        "Event": "UNIT_THREAT_SITUATION_UPDATE",
+        "Description": "Fires when a unit's threat state changes"
+    },
+    {
+        "Event": "UPDATE_BATTLEFIELD_SCORE",
+        "Description": "Fires when information for the battleground scoreboard changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_BATTLEFIELD_STATUS",
+        "Description": "Fires when the player's status in a battleground or queue changes"
+    },
+    {
+        "Event": "UPDATE_BINDINGS",
+        "Description": "Fires when information about the player's key binding settings changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_BONUS_ACTIONBAR",
+        "Description": "Fires when information about the bonus action bar changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_CHAT_COLOR",
+        "Description": "Fires when the color settings for chat message types are updated"
+    },
+    {
+        "Event": "UPDATE_CHAT_COLOR_NAME_BY_CLASS",
+        "Description": "Fires when settings for per-class color-coding of character names in chat are updated"
+    },
+    {
+        "Event": "UPDATE_CHAT_WINDOWS",
+        "Description": "Fires when saved chat window settings are loaded"
+    },
+    {
+        "Event": "UPDATE_EXHAUSTION",
+        "Description": "Fires when the player's rest state or amount of rested XP changes"
+    },
+    {
+        "Event": "UPDATE_EXPANSION_LEVEL",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_EXTRA_ACTIONBAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_FACTION",
+        "Description": "Fires when the contents of the reputation listing change or become available"
+    },
+    {
+        "Event": "UPDATE_FLOATING_CHAT_WINDOWS",
+        "Description": "Fires when chat window layout should be updated"
+    },
+    {
+        "Event": "UPDATE_GM_STATUS",
+        "Description": "Fires when the player's GM ticket status (or ability to submit tickets) changes"
+    },
+    {
+        "Event": "UPDATE_INSTANCE_INFO",
+        "Description": "Fires when information about instances to which the player is saved changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_INVENTORY_ALERTS",
+        "Description": "Fires when an equipped item's durability alert status changes"
+    },
+    {
+        "Event": "UPDATE_INVENTORY_DURABILITY",
+        "Description": "Fires when an equipped item's durability changes"
+    },
+    {
+        "Event": "UPDATE_LFG_LIST",
+        "Description": "Fires when results of a Looking for More query become available"
+    },
+    {
+        "Event": "UPDATE_LFG_LIST_INCREMENTAL",
+        "Description": "Fires when results of a Looking for More query are updated"
+    },
+    {
+        "Event": "UPDATE_LFG_TYPES",
+        "Description": "Fires when information about possible Looking for Group settings changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_MACROS",
+        "Description": "Fires when information about the player's macros changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_MASTER_LOOT_LIST",
+        "Description": "Fires when the contents of the master loot candidate list change or become available"
+    },
+    {
+        "Event": "UPDATE_MOUSEOVER_UNIT",
+        "Description": "Fires when the mouse cursor moves over a visible unit"
+    },
+    {
+        "Event": "UPDATE_MULTI_CAST_ACTIONBAR",
+        "Description": "Fires when the contents of the multi-cast action bar change or become available"
+    },
+    {
+        "Event": "UPDATE_OVERRIDE_ACTIONBAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_PENDING_MAIL",
+        "Description": "Fires when information about newly received mail messages (not yet seen at a mailbox) becomes available"
+    },
+    {
+        "Event": "UPDATE_POSSESS_BAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_SELECTED_CHARACTER",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_SELECTED_RACE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_SHAPESHIFT_COOLDOWN",
+        "Description": "Fires when the cooldown begins or ends for an action on the stance/shapeshift bar"
+    },
+    {
+        "Event": "UPDATE_SHAPESHIFT_FORM",
+        "Description": "Fires when the player's shapeshift form changes"
+    },
+    {
+        "Event": "UPDATE_SHAPESHIFT_FORMS",
+        "Description": "Fires when the contents of the stance/shapeshift bar change or become available"
+    },
+    {
+        "Event": "UPDATE_SHAPESHIFT_USABLE",
+        "Description": "Fires when an ability on the stance/shapeshift bar becomes usable or unusable"
+    },
+    {
+        "Event": "UPDATE_STATUS_DIALOG",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_STEALTH",
+        "Description": "Fires when the player uses or cancels a stealth ability"
+    },
+    {
+        "Event": "UPDATE_SUMMONPETS_ACTION",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_TICKET",
+        "Description": "Fires when information about an active GM ticket changes or becomes available"
+    },
+    {
+        "Event": "UPDATE_TRADESKILL_RECAST",
+        "Description": "Fires for each cast when performing multiple casts of a trade skill recipe"
+    },
+    {
+        "Event": "UPDATE_VEHICLE_ACTIONBAR",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_WEB_TICKET",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "UPDATE_WORLD_STATES",
+        "Description": "Fires when information for world state UI elements changes or becomes available"
+    },
+    {
+        "Event": "USE_BIND_CONFIRM",
+        "Description": "Fires when the player attempts to use an item which will become soulbound in the process"
+    },
+    {
+        "Event": "USE_GLYPH",
+        "Description": "Fires when the player begins to use a glyph"
+    },
+    {
+        "Event": "VARIABLES_LOADED",
+        "Description": "Fires when non-addon-specific saved variables are loaded"
+    },
+    {
+        "Event": "VEHICLE_ANGLE_SHOW",
+        "Description": "Fires when controls for vehicle weapon pitch should be displayed"
+    },
+    {
+        "Event": "VEHICLE_ANGLE_UPDATE",
+        "Description": "Fires when the player's vehicle weapon pitch changes"
+    },
+    {
+        "Event": "VEHICLE_PASSENGERS_CHANGED",
+        "Description": "Fires when the list of passengers in the player's vehicle changes"
+    },
+    {
+        "Event": "VEHICLE_POWER_SHOW",
+        "Description": "Fires when controls for vehicle weapon power should be displayed "
+    },
+    {
+        "Event": "VEHICLE_UPDATE",
+        "Description": "Fires when information about the player's vehicle changes or becomes available"
+    },
+    {
+        "Event": "VIGNETTE_ADDED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VIGNETTE_REMOVED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOICE_CHANNEL_STATUS_UPDATE",
+        "Description": "Fires when voice-related status of a chat channel changes"
+    },
+    {
+        "Event": "VOICE_CHAT_ENABLED_UPDATE",
+        "Description": "Fires when the client's voice chat feature is enabled or disabled"
+    },
+    {
+        "Event": "VOICE_LEFT_SESSION",
+        "Description": "Fires when a voice-enabled member leaves a chat channel"
+    },
+    {
+        "Event": "VOICE_PLATE_START",
+        "Description": "Fires when a channel member begins speaking in voice chat"
+    },
+    {
+        "Event": "VOICE_PLATE_STOP",
+        "Description": "Fires when a channel member finishes speaking in voice chat"
+    },
+    {
+        "Event": "VOICE_PUSH_TO_TALK_START",
+        "Description": "Fires when the \"Push to Talk\" key binding is activated"
+    },
+    {
+        "Event": "VOICE_PUSH_TO_TALK_STOP",
+        "Description": "Fires when the \"Push to Talk\" key binding is deactivated"
+    },
+    {
+        "Event": "VOICE_SELF_MUTE",
+        "Description": "Fires when the player's self mute setting changes"
+    },
+    {
+        "Event": "VOICE_SESSIONS_UPDATE",
+        "Description": "Fires when information about a voice chat session changes or becomes available"
+    },
+    {
+        "Event": "VOICE_START",
+        "Description": "Fires when a channel member begins speaking in voice chat"
+    },
+    {
+        "Event": "VOICE_STATUS_UPDATE",
+        "Description": "Fires when a member of the player's group changes voice chat status"
+    },
+    {
+        "Event": "VOICE_STOP",
+        "Description": "Fires when a channel member finishes speaking in voice chat"
+    },
+    {
+        "Event": "VOID_DEPOSIT_WARNING",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOID_STORAGE_CLOSE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOID_STORAGE_CONTENTS_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOID_STORAGE_DEPOSIT_UPDATE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOID_STORAGE_OPEN",
+        "Description": "Fires when the void storage window is opened"
+    },
+    {
+        "Event": "VOID_STORAGE_UPDATE",
+        "Description": "Fires when content is available"
+    },
+    {
+        "Event": "VOID_TRANSFER_DONE",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "VOTE_KICK_REASON_NEEDED",
+        "Description": "Fires when the player attempts to vote-kick another player and the game requests a reason"
+    },
+    {
+        "Event": "WARGAME_REQUESTED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "WEAR_EQUIPMENT_SET",
+        "Description": "Fires when the player's current equipment set changes"
+    },
+    {
+        "Event": "WEIGHTED_SPELL_UPDATED",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "WHO_LIST_UPDATE",
+        "Description": "Fires when results of a Who query become available"
+    },
+    {
+        "Event": "WORLD_MAP_UPDATE",
+        "Description": "Fires when the contents of the world map change or become available"
+    },
+    {
+        "Event": "WORLD_STATE_TIMER_START",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "WORLD_STATE_TIMER_STOP",
+        "Description": "This event is not yet documented"
+    },
+    {
+        "Event": "WORLD_STATE_UI_TIMER_UPDATE",
+        "Description": "Fires when the state of a timer world state UI element changes or becomes available"
+    },
+    {
+        "Event": "WOW_MOUSE_NOT_FOUND",
+        "Description": "This event fires when a man buttoned WoW mouse is not found, in response to a [[docs/api/DetectWowMouse|`DetectWowMouse()`]] function call"
+    },
+    {
+        "Event": "ZONE_CHANGED",
+        "Description": "Fires when the player moves between subzones or other named areas"
+    },
+    {
+        "Event": "ZONE_CHANGED_INDOORS",
+        "Description": "Fires when the player moves between areas and the \"indoors/outdoors\" status may have changed"
+    },
+    {
+        "Event": "ZONE_CHANGED_NEW_AREA",
+        "Description": "Fires when the player moves between major zones or enters/exits an instance"
+    }
+]
